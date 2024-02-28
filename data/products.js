@@ -13,7 +13,7 @@ export function getProduct(productId) {
 export const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
-    image: "images/newImages/Geemy Electric Hair Trimmer Barbering Machine.png",
+    image: "images/newImages/Geemy Electric Hair Trimmer Barbering Machine-min.png",
     name: "Geemy Electric Hair Trimmer Barbering Machine",
     rating: {
       stars: 4.5,
@@ -28,7 +28,7 @@ export const products = [
   },
   {
     id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
-    image: "images/newImages/ailyons1.png",
+    image: "images/newImages/ailyons1-min.png",
     name: "AILYONS HD-198A Electric Dry Iron Box White & Blue",
     rating: {
       stars: 4,
@@ -42,7 +42,7 @@ export const products = [
   },
   {
     id: "83d4ca15-0f35-48f5-b7a3-1ea210004f2e",
-    image: "images/newImages/tv_wall_bracket.png",
+    image: "images/newImages/tv_wall_bracket-min.png",
     name: "Tv Wall Bracket",
     rating: {
       stars: 4.5,
@@ -59,7 +59,7 @@ export const products = [
   },
   {
     id: "54e0eccd-8f36-462b-b68a-8182611d9add",
-    image: "images/newImages/Pioneer Car Subwoofer 12 30 CM 1400 Watts Bass Speaker.png",
+    image: "images/newImages/Pioneer Car Subwoofer 12 30 CM 1400 Watts Bass Speaker-min.png",
     name: "Pioneer Car Subwoofer 12 30 CM 1400 Watts Bass Speaker",
     rating: {
       stars: 5,
@@ -74,7 +74,7 @@ export const products = [
   },
   {
     id: "3ebe75dc-64d2-4137-8860-1f5a963e534b",
-    image: "images/newImages/solar_monitoring_lamb1.png",
+    image: "images/newImages/solar_monitoring_lamb1-min.png",
     name: "Solar Monitoring Lamb",
     rating: {
       stars: 4,
@@ -89,7 +89,7 @@ export const products = [
   },
   {
     id: "8c9c52b5-5a19-4bcb-a5d1-158a74287c53",
-    image: "images/newImages/enershower3.png",
+    image: "images/newImages/enershower3-min.png",
     name: "Enershower",
     rating: {
       stars: 4.5,
@@ -103,7 +103,7 @@ export const products = [
   },
   {
     id: "dd82ca78-a18b-4e2a-9250-31e67412f98d",
-    image: "images/newImages/zeriotti_blow_dry.png",
+    image: "images/newImages/zeriotti_blow_dry-min.png",
     name: "zeriotti_blow_dry",
     rating: {
       stars: 4.5,
@@ -118,7 +118,7 @@ export const products = [
   },
   {
     id: "77919bbe-0e56-475b-adde-4f24dfed3a04",
-    image: "images/newImages/mindy3.png",
+    image: "images/newImages/mindy3-min.png",
     name: "Mindy Padlock",
     rating: {
       stars: 4.5,
@@ -135,7 +135,7 @@ export const products = [
   },
   {
     id: "3fdfe8d6-9a15-4979-b459-585b0d0545b9",
-    image: "images/newImages/solar_M_lambs4.png",
+    image: "images/newImages/solar_M_lambs4-min.png",
     name: "solar Monitoring Lamb",
     rating: {
       stars: 4.5,
@@ -149,7 +149,7 @@ export const products = [
   },
   {
     id: "58b4fc92-e98c-42aa-8c55-b6b79996769a",
-    image: "images/newImages/solar_light4.png",
+    image: "images/newImages/solar_light4-min.png",
     name: "Adapter cable",
     rating: {
       stars: 4,
@@ -164,7 +164,7 @@ export const products = [
   },
   {
     id: "5968897c-4d27-4872-89f6-5bcb052746d7",
-    image: "images/newImages/bulb_holder.png",
+    image: "images/newImages/bulb_holder-min.png",
     name: "Lamb Holder",
     rating: {
       stars: 4.5,
@@ -197,7 +197,7 @@ export const products = [
   },
   {
     id: "04701903-bc79-49c6-bc11-1af7e3651358",
-    image: "images/newImages/cooker_socket_control.png",
+    image: "images/newImages/cooker_socket_control-min.png",
     name: "Cooker Socket Control",
     rating: {
       stars: 4.5,
@@ -214,7 +214,7 @@ export const products = [
   },
   {
     id: "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
-    image: "images/newImages/2.5mm single core electrical cable.png",
+    image: "images/newImages/2.5mm single core electrical cable-min.png",
     name: "Blackout Curtains Set 4-Pack - Beige",
     rating: {
       stars: 4.5,
@@ -229,7 +229,7 @@ export const products = [
   },
   {
     id: "82bb68d7-ebc9-476a-989c-c78a40ee5cd9",
-    image: "images/newImages/motobike_audio.png",
+    image: "images/newImages/motobike_audio-min.png",
     name: "Motobike Audio",
     rating: {
       stars: 4,
@@ -244,7 +244,7 @@ export const products = [
   },
   {
     id: "c2a82c5e-aff4-435f-9975-517cfaba2ece",
-    image: "images/newImages/1 Gang, 2, 3 & 4 Gangs Electric Switch.png",
+    image: "images/newImages/1 Gang, 2, 3 & 4 Gangs Electric Switch-min.png",
     name: "1 Gang, 2, 3 & 4 Gangs Electric Switch",
     rating: {
       stars: 5,
@@ -259,7 +259,7 @@ export const products = [
   },
   {
     id: "6b07d4e7-f540-454e-8a1e-363f25dbae7d",
-    image: "images/newImages/4PCS-Black-Long -Allen-Key-Socket-Bit-Set-Screw-Driver-Tool-Kit-NEW.png",
+    image: "images/newImages/4PCS-Black-Long -Allen-Key-Socket-Bit-Set-Screw-Driver-Tool-Kit-NEW-min.png",
     name: "4PCS-Black-Long -Allen-Key-Socket-Bit-Set-Screw-Driver-Tool-Kit-NEW",
     rating: {
       stars: 4,
@@ -276,7 +276,7 @@ export const products = [
   },
   {
     id: "a82c6bac-3067-4e68-a5ba-d827ac0be010",
-    image: "images/newImages/Digital Multimeter Mini Digital Multimeter AC DC Tester Voltmeter-Yellow.png",
+    image: "images/newImages/Digital Multimeter Mini Digital Multimeter AC DC Tester Voltmeter-Yellow-min.png",
     name: "Digital Multimeter Mini Digital Multimeter AC DC Tester Voltmeter-Yellow",
     rating: {
       stars: 4,
@@ -292,7 +292,7 @@ export const products = [
   },
   {
     id: "e4f64a65-1377-42bc-89a5-e572d19252e2",
-    image: "images/newImages/Electric Meter Box Steel & Lockable 13x13.png",
+    image: "images/newImages/Electric Meter Box Steel & Lockable 13x13-min.png",
     name: "Electric Meter Box Steel & Lockable 13x13",
     rating: {
       stars: 4.5,
@@ -307,7 +307,7 @@ export const products = [
   },
   {
     id: "b0f17cc5-8b40-4ca5-9142-b61fe3d98c85",
-    image: "images/newImages/Cr-V Torx Screwdriver Set With Hole Magnetic T5-T30 Screw.png",
+    image: "images/newImages/Cr-V Torx Screwdriver Set With Hole Magnetic T5-T30 Screw-min.png",
     name: "Cr-V Torx Screwdriver Set With Hole Magnetic T5-T30 Screw.png",
     rating: {
       stars: 4.5,
@@ -322,7 +322,7 @@ export const products = [
       "apparel"
     ],
     type: "clothing",
-    sizeChartLink: "images/clothing-size-chart.png"
+    sizeChartLink: "images/clothing-size-chart-min.png"
   },
   {
     id: "a93a101d-79ef-4cf3-a6cf-6dbe532a1b4a",
@@ -341,7 +341,7 @@ export const products = [
   },
   {
     id: "4f4fbcc2-4e72-45cc-935c-9e13d79cc57f",
-    image: "images/newImages/Cable Clips 8mm To 14mm,100 Per Set Or Several Sets.png",
+    image: "images/newImages/Cable Clips 8mm To 14mm,100 Per Set Or Several Sets-min.png",
     name: "Cable Clips 8mm To 14mm,100 Per Set Or Several Sets.png",
     rating: {
       stars: 4,
@@ -357,7 +357,7 @@ export const products = [
   },
   {
     id: "8b5a2ee1-6055-422a-a666-b34ba28b76d4",
-    image: "images/newImages/Tolsen Tape Measure 3M- 5M-7.5M -8M -  10M Tolsen Measuring Tape Heavy Duty Best.png",
+    image: "images/newImages/Tolsen Tape Measure 3M- 5M-7.5M -8M -  10M Tolsen Measuring Tape Heavy Duty Best-min.png",
     name: "Tolsen Tape Measure 3M- 5M-7.5M -8M -  10M Tolsen Measuring Tape Heavy Duty Best",
     rating: {
       stars: 4.5,
@@ -375,7 +375,7 @@ export const products = [
   },
   {
     id: "b86ddc8b-3501-4b17-9889-a3bad6fb585f",
-    image: "images/newImages/Neelux 30w, 50w, 100w, 200w, 300w Quality LED FLOOD LIGHT.png",
+    image: "images/newImages/Neelux 30w, 50w, 100w, 200w, 300w Quality LED FLOOD LIGHT-min.png",
     name: "Neelux 30w, 50w, 100w, 200w, 300w Quality LED FLOOD LIGHT.png",
     rating: {
       stars: 4.5,
@@ -391,7 +391,7 @@ export const products = [
   },
   {
     id: "19c6a64a-5463-4d45-9af8-e41140a4100c",
-    image: "images/newImages/Neelux Electric Mosquito Flies Killer Bulb.png",
+    image: "images/newImages/Neelux Electric Mosquito Flies Killer Bulb-min.png",
     name: "Neelux Electric Mosquito Flies Killer Bulb",
     rating: {
       stars: 4,
@@ -408,7 +408,7 @@ export const products = [
   },
   {
     id: "d2785924-743d-49b3-8f03-ec258e640503",
-    image: "images/newImages/Power King Extension Cable With 6 AC Power Outlets, 13A, And 2 M Long Cable.png",
+    image: "images/newImages/Power King Extension Cable With 6 AC Power Outlets, 13A, And 2 M Long Cable-min.png",
     name: "Power King Extension Cable With 6 AC Power Outlets, 13A, And 2 M Long Cable",
     rating: {
       stars: 5,
@@ -426,7 +426,7 @@ export const products = [
   },
   {
     id: "ee1f7c56-f977-40a4-9642-12ba5072e2b0",
-    image: "images/newImages/SE27 Lamp Holder Hanging Wire Chandelier Lamp Holder Bulb Bas.png",
+    image: "images/newImages/SE27 Lamp Holder Hanging Wire Chandelier Lamp Holder Bulb Bas-min.png",
     name: "SE27 Lamp Holder Hanging Wire Chandelier Lamp Holder Bulb Bas",
     rating: {
       stars: 4.5,
@@ -441,7 +441,7 @@ export const products = [
   },
   {
     id: "1c079479-8586-494f-ab53-219325432536",
-    image: "images/newImages/Kennede Rechargeable Torch Household Portable Outdoor Flashlight.png",
+    image: "images/newImages/Kennede Rechargeable Torch Household Portable Outdoor Flashlight-min.png",
     name: "Kennede Rechargeable Torch Household Portable Outdoor Flashlight",
     rating: {
       stars: 4,
@@ -457,7 +457,7 @@ export const products = [
   },
   {
     id: "4df68c27-fd59-4a6a-bbd1-e754ddb6d53c",
-    image: "images/newImages/Hr Strong Non Leak Meko Gas Burner+ 4Way Extension.png",
+    image: "images/newImages/Hr Strong Non Leak Meko Gas Burner+ 4Way Extension-min.png",
     name: "Hr Strong Non Leak Meko Gas Burner+ 4Way Extension.png",
     rating: {
       stars: 3.5,
@@ -473,7 +473,7 @@ export const products = [
   },
   {
     id: "4e37dd03-3b23-4bc6-9ff8-44e112a92c64",
-    image: "images/newImages/4PCS-Black-Long -Allen-Key-Socket-Bit-Set-Screw-Driver-Tool-Kit-NEW.png",
+    image: "images/newImages/4PCS-Black-Long -Allen-Key-Socket-Bit-Set-Screw-Driver-Tool-Kit-NEW-min.png",
     name: "4PCS-Black-Long -Allen-Key-Socket-Bit-Set-Screw-Driver-Tool-Kit-NEW",
     rating: {
       stars: 4.5,
@@ -487,7 +487,7 @@ export const products = [
   },
   {
     id: "a434b69f-1bc1-482d-9ce7-cd7f4a66ce8d",
-    image: "images/newImages/8 Levers Shutter Lock.png",
+    image: "images/newImages/8 Levers Shutter Lock-min.png",
     name: "8 Levers Shutter Lock.png",
     rating: {
       stars: 4.5,
@@ -503,7 +503,7 @@ export const products = [
   },
   {
     id: "a45cfa0a-66d6-4dc7-9475-e2b01595f7d7",
-    image: "images/newImages/gemmy level 1 shaver.png",
+    image: "images/newImages/gemmy level 1 shaver-min.png",
     name: "Gemmy level 1 shaver",
     rating: {
       stars: 4.5,
@@ -520,7 +520,7 @@ export const products = [
   },
   {
     id: "d339adf3-e004-4c20-a120-40e8874c66cb",
-    image: "images/newImages/poltry_bulb.png",
+    image: "images/newImages/poltry_bulb-min.png",
     name: "poltry_bulb.png",
     rating: {
       stars: 4.5,
@@ -534,7 +534,7 @@ export const products = [
   },
   {
     id: "d37a651a-d501-483b-aae6-a9659b0757a0",
-    image: "images/newImages/HP Probook 640 645 650 655 G1 Big Pin Charger Complete With Cable.png",
+    image: "images/newImages/HP Probook 640 645 650 655 G1 Big Pin Charger Complete With Cable-min.png",
     name: "HP Probook 640 645 650 655 G1 Big Pin Charger Complete With Cable.png",
     rating: {
       stars: 4,
@@ -549,7 +549,7 @@ export const products = [
   },
   {
     id: "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
-    image: "images/products/coffeemaker-with-glass-carafe-black.jpg",
+    image: "images/products/coffeemaker-with-glass-carafe-black-min.jpg",
     name: "Coffeemaker with Glass Carafe and Reusable Filter - 25 Oz, Black",
     rating: {
       stars: 4.5,
@@ -565,7 +565,7 @@ export const products = [
   {
     id: "02e3a47e-dd68-467e-9f71-8bf6f723fdae",
     image: "images/newImages/Neelux 5W LED Energy Saving Bulb.png",
-    name: "Neelux 5W LED Energy Saving Bulb.png",
+    name: "Neelux 5W LED Energy Saving Bulb-min.png",
     rating: {
       stars: 4.5,
       count: 363
@@ -578,7 +578,7 @@ export const products = [
   },
   {
     id: "8a53b080-6d40-4a65-ab26-b24ecf700bce",
-    image: "images/newImages/Primus Quality 6kg Gas Cylinder Burner For Meko.png",
+    image: "images/newImages/Primus Quality 6kg Gas Cylinder Burner For Meko-min.png",
     name: "Primus Quality 6kg Gas Cylinder Burner For Meko",
     rating: {
       stars: 4.5,
@@ -593,7 +593,7 @@ export const products = [
   },
   {
     id: "10ed8504-57db-433c-b0a3-fc71a35c88a1",
-    image: "images/newImages/Power King Heavy Duty 5 Way Extension Power Protector Switch.png",
+    image: "images/newImages/Power King Heavy Duty 5 Way Extension Power Protector Switch-min.png",
     name: "Power King Heavy Duty 5 Way Extension Power Protector Switch.png",
     rating: {
       stars: 4,
@@ -609,7 +609,7 @@ export const products = [
   },
   {
     id: "77a845b1-16ed-4eac-bdf9-5b591882113d",
-    image: "images/newImages/twin_cable1.png",
+    image: "images/newImages/twin_cable1-min.png",
     name: "Twin Cable",
     rating: {
       stars: 4,
@@ -624,7 +624,7 @@ export const products = [
   },
   {
     id: "36c64692-677f-4f58-b5ec-0dc2cf109e27",
-    image: "images/newImages/Viro Solid Brass Cylindrical Padlock 70mm.png",
+    image: "images/newImages/Viro Solid Brass Cylindrical Padlock 70mm-min.png",
     name: "Viro Solid Brass Cylindrical Padlock 70mm",
     rating: {
       stars: 5,
@@ -640,7 +640,7 @@ export const products = [
   },
   {
     id: "aaa65ef3-8d6f-4eb3-bc9b-a6ea49047d8f",
-    image: "images/newImages/ailyoins_kettles1.png",
+    image: "images/newImages/ailyoins_kettles1-min.png",
     name: "Allyon Kettle",
     rating: {
       stars: 4.5,
@@ -655,7 +655,7 @@ export const products = [
   },
   {
     id: "bc2847e9-5323-403f-b7cf-57fde044a955",
-    image: "images/newImages/cerrotti_blow_dry.png",
+    image: "images/newImages/cerrotti_blow_dry-min.png",
     name: "Cerrotti Blow Dry",
     rating: {
       stars: 4.5,

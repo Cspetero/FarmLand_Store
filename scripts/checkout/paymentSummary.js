@@ -10,12 +10,42 @@ export function renderPaymentSummary() {
     productPriceCents += product.priceCents * cartItem.quantity;
   });
 
+  const totalBeforeTaxCents = productPriceCents;
+  const taxCents = totalBeforeTaxCents * 0.1;
+  const totalCents = totalBeforeTaxCents + taxCents;
+
   const paymentSummaryHTML = `
     <div class="payment-summary-title">
       Order Summary
     </div>
 
-    <!-- Payment summary details for items, shipping, total, etc. -->
+    <div class="payment-summary-row">
+      <div>Items (${cart.length}):</div>
+      <div class="payment-summary-money">
+        Ksh${formatCurrency(productPriceCents)}
+      </div>
+    </div>
+
+    <div class="payment-summary-row subtotal-row">
+      <div>Total before tax:</div>
+      <div class="payment-summary-money">
+        Ksh${formatCurrency(totalBeforeTaxCents)}
+      </div>
+    </div>
+
+    <div class="payment-summary-row">
+      <div>Estimated tax (10%):</div>
+      <div class="payment-summary-money">
+        Ksh${formatCurrency(taxCents)}
+      </div>
+    </div>
+
+    <div class="payment-summary-row total-row">
+      <div>Order total:</div>
+      <div class="payment-summary-money">
+        Ksh${formatCurrency(totalCents)}
+      </div>
+    </div>
 
     <button class="place-order-button button-primary">
       Place your order
@@ -33,21 +63,24 @@ export function renderPaymentSummary() {
   const whatsappButton = document.getElementById('whatsapp-button');
   whatsappButton.addEventListener('click', () => {
     const phoneNumber = '+254114477854';
-    const message = generateWhatsAppMessage();
+    const message = generateWhatsAppMessage(productPriceCents, totalBeforeTaxCents, taxCents, totalCents);
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`);
   });
 }
 
-function generateWhatsAppMessage() {
+function generateWhatsAppMessage(productPriceCents, totalBeforeTaxCents, taxCents, totalCents) {
   let message = 'I would like to confirm the order of the following:\n\n';
 
   cart.forEach((cartItem) => {
     const product = getProduct(cartItem.productId);
     message += `Name: ${product.name}\n`;
     message += `Price: Ksh${formatCurrency(product.priceCents)}\n\n`;
-    // Convert image URL to base64 data URI
-    message += `![Product Image](${product.image})\n\n`;
   });
+
+  message += `Total Items: ${cart.length}\n`;
+  message += `Total before tax: Ksh${formatCurrency(totalBeforeTaxCents)}\n`;
+  message += `Estimated tax (10%): Ksh${formatCurrency(taxCents)}\n`;
+  message += `Order total: Ksh${formatCurrency(totalCents)}\n`;
 
   return message;
 }
