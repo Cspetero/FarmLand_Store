@@ -37,7 +37,6 @@
 .header-link:hover {
   border: 1px solid white;
 }
-
 .amazon-logo {
   width: 200px;
   margin-top: 5px;
@@ -47,17 +46,25 @@
   display: none;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 480px) {
   .amazon-logo {
-    display: none;
+    display: none; /* Hide the Amazon logo on smaller screens */
   }
 
   .amazon-mobile-logo {
-    display: block;
-    height: 35px;
-    margin-top: 5px;
+    display: block; /* Display the mobile version of the logo on smaller screens */
+    height: 35px; /* Set the height of the mobile logo */
+    margin-top: 5px; /* Adjust margin as needed */
   }
 }
+
+@media screen and (max-width: 480px) {
+  /* Adjust the width for smaller screen sizes */
+  .amazon-logo {
+    width: 100px; /* Adjust width for smaller screens */
+  }
+}
+
 
 .amazon-header-middle-section {
   flex: 1;

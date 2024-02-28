@@ -74,7 +74,7 @@ export function renderPaymentSummary() {
   // WhatsApp button event listener
   const whatsappButton = document.getElementById('whatsapp-button');
   whatsappButton.addEventListener('click', () => {
-    const phoneNumber = '0114477854';
+    const phoneNumber = '+254114477854';
     const message = 'I would like to confirm my order.';
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`);
   });
