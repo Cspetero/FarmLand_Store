@@ -149,7 +149,7 @@ export const products = [
   },
   {
     id: "58b4fc92-e98c-42aa-8c55-b6b79996769a",
-    image: "images/newImages/solar_light4-min.png",
+    image: "images/newImages/Primus Quality 6kg Gas Cylinder Burner For Meko-min.png",
     name: "Adapter cable",
     rating: {
       stars: 4,
@@ -184,7 +184,7 @@ export const products = [
   {
     id: "aad29d11-ea98-41ee-9285-b916638cac4a",
     image: "images/newImages/Mindy Secure Padlock Size Large 70mm.png",
-    name: "Poltry Bulb.png",
+    name: "Mindy Secure Padlock Size Large 70mm",
     rating: {
       stars: 4.5,
       count: 30
@@ -549,7 +549,7 @@ export const products = [
   },
   {
     id: "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
-    image: "images/products/coffeemaker-with-glass-carafe-black-min.jpg",
+    image: "images/newImages/2.5mm single electrical cable-min.png",
     name: "Coffeemaker with Glass Carafe and Reusable Filter - 25 Oz, Black",
     rating: {
       stars: 4.5,
