@@ -17,7 +17,8 @@
 .page-title {
   font-weight: 700;
   font-size: 22px;
-  margin-bottom: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .checkout-grid {
@@ -219,14 +220,34 @@
   margin-top: 10px;
   cursor: pointer;
 }
+.whatsapp-button {
+  font-size: 20px;
+  padding: 10px 40px; /* Adjust padding to accommodate the logo */
+  position: relative; /* Set the button position to relative */
+  background-color: #4CAF50; /* Set the default background color */
+  border: none; /* Remove border */
+  color: white; /* Set text color */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove default underline */
+  display: inline-block; /* Make it inline-block */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  border-radius: 4px; /* Add some border radius for button appearance */
+}
 
 .whatsapp-button:hover {
   background-color: #128c7e; /* Darker shade of green on hover */
 }
-.whatsapp-logo{
-  width: 25px;
-  height: 25px;
-  padding: 0%;
-  margin: 0%;
-  vertical-align: 0;
+
+.whatsapp-logo {
+  width: 40px;
+  position: absolute;
+  border-radius: 20px;
+  top: 50%; /* Adjust logo position vertically */
+  left: 10px; /* Adjust logo position horizontally */
+  transform: translateY(-50%); /* Center the logo vertically */
+}
+
+/* Adjust the text position to accommodate the logo */
+.whatsapp-button span {
+  margin-left: 30px; /* Adjust margin to create space for the logo */
 }
