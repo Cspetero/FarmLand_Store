@@ -52,7 +52,7 @@ export function renderPaymentSummary() {
     </button>
 
     <button id="whatsapp-button" class="whatsapp-button button-secondary">
-      <img class="whatsapp-logo" src="/images/whatsapp_logo.png" alt="">  
+      <img class="whatsapp-logo" src="/FarmLand_store/images/whatsapp_logo.png" alt="">  
       Confirm your order here (via WhatsApp)
     </button>
   `;
@@ -60,27 +60,33 @@ export function renderPaymentSummary() {
   document.querySelector('.js-payment-summary').innerHTML = paymentSummaryHTML;
 
   // WhatsApp button event listener
-  const whatsappButton = document.getElementById('whatsapp-button');
-  whatsappButton.addEventListener('click', () => {
-    const phoneNumber = '+254114477854';
+const whatsappButton = document.getElementById('whatsapp-button');
+whatsappButton.addEventListener('click', () => {
+    const phoneNumber = '+254114477854'; // Replace with your WhatsApp business number
     const message = generateWhatsAppMessage(productPriceCents, totalBeforeTaxCents, taxCents, totalCents);
-    window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`);
-  });
-}
+    
+    // Call a function to send the message via the WhatsApp API
+    sendWhatsAppMessage(phoneNumber, message);
+});
 
 function generateWhatsAppMessage(productPriceCents, totalBeforeTaxCents, taxCents, totalCents) {
-  let message = 'I would like to confirm the order of the following:\n\n';
+    let message = 'Welcome to Farmland Electricals. Your order is being processed.';
 
-  cart.forEach((cartItem) => {
-    const product = getProduct(cartItem.productId);
-    message += `Name: ${product.name}\n`;
-    message += `Price: Ksh${formatCurrency(product.priceCents)}\n\n`;
-  });
+    // You can add additional information to the message if needed
 
-  message += `Total Items: ${cart.length}\n`;
-  message += `Total before tax: Ksh${formatCurrency(totalBeforeTaxCents)}\n`;
-  message += `Estimated tax (10%): Ksh${formatCurrency(taxCents)}\n`;
-  message += `Order total: Ksh${formatCurrency(totalCents)}\n`;
+    return message;
+}
 
-  return message;
+async function sendWhatsAppMessage(phoneNumber, message) {
+    try {
+        const response = await fetch(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`);
+        if (response.ok) {
+            console.log('WhatsApp message sent successfully!');
+        } else {
+            console.error('Failed to send WhatsApp message:', response.statusText);
+        }
+    } catch (error) {
+        console.error('Error sending WhatsApp message:', error);
+    }
+}
 }

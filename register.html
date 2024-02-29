@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - FarmLand Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/shared/general.css" />
+    <link rel="stylesheet" href="styles/shared/auth.css" />
+    <!-- New CSS file for authentication pages -->
+</head>
+<body>
+    <div class="auth-container">
+      <h2>Register</h2>
+      <form id="registrationForm">
+        <!-- Added an id to the form for easier access -->
+        <input type="text" id="fullName" placeholder="Full Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button type="submit" id="registerButton">Register</button>
+      </form>
+      <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+
+    <!-- Include Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.4/firebase-app.js" type="module"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.4/firebase-database.js" type="module"></script>
+
+    <script type="module">
+      // Initialize Firebase
+      import { initializeApp } from "firebase/app";
+      import { getAnalytics } from "firebase/analytics";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyCXNzA7FcCM_BBB4nYXJzFg6X0RVoc7eWA",
+        authDomain: "farmlandelectricals.firebaseapp.com",
+        databaseURL: "https://farmlandelectricals-default-rtdb.firebaseio.com",
+        projectId: "farmlandelectricals",
+        storageBucket: "farmlandelectricals.appspot.com",
+        messagingSenderId: "577927305361",
+        appId: "1:577927305361:web:ab610a87ef2f3b291ec730",
+        measurementId: "G-ZV3MXQV74K",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+
+      // Reference to your Firebase Realtime Database
+      const database = app.database();
+
+      // Add event listener to the form for form submission
+      document
+        .getElementById("registrationForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the default form submission behavior
+
+          // Get form values
+          const fullName = document.getElementById("fullName").value;
+          const email = document.getElementById("email").value;
+          const password = document.getElementById("password").value;
+
+          // Save data to Firebase Realtime Database
+          saveUserData(fullName, email, password);
+
+          // Optionally, you can redirect the user to another page after successful registration
+          // window.location.href = "success.html";
+        });
+
+      // Function to save user data to Firebase Realtime Database
+      function saveUserData(fullName, email, password) {
+        // Generate a unique key for the new user
+        const newUserId = database.ref().child("users").push().key;
+
+        // Create a data object to be saved
+        const userData = {
+          fullName: fullName,
+          email: email,
+          password: password,
+        };
+
+        // Save the data to the database under the 'users' node with the unique key
+        database
+          .ref("users/" + newUserId)
+          .set(userData)
+          .then(() => {
+            console.log("User registration successful!");
+            // Optionally, you can display a success message or redirect the user
+          })
+          .catch((error) => {
+            console.error("Error registering user:", error);
+            // Optionally, you can display an error message to the user
+          });
+      }
+    </script>
+</body>
+</html>

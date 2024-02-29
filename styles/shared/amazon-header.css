@@ -154,3 +154,29 @@
   width: 26px;
   text-align: center;
 }
+
+/* Add this CSS to your existing amazon-header.css file */
+.login-register-icons {
+  display: flex;
+  align-items: center;
+}
+
+.login-icon,
+.register-icon {
+  margin-right: 10px;
+}
+
+.login-button,
+.register-button {
+  background-color: transparent;
+  border: none;
+  color: #7fbe08;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.login-button:hover,
+.register-button:hover {
+  text-decoration: underline;
+}
