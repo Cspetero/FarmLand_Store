@@ -52,7 +52,7 @@ export function renderPaymentSummary() {
     </button>
 
     <button id="whatsapp-button" class="whatsapp-button button-secondary">
-      <img class="whatsapp-logo" src="/images/whatsapp_logo.png" alt="">  
+      <img class="whatsapp-logo" src="../../images/whatsapp_logo.png" alt="">  
       Confirm your order here (via WhatsApp)
     </button>
   `;
