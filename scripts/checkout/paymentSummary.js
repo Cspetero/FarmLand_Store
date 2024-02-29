@@ -1,6 +1,6 @@
-import { cart } from '../../data/cart.js';
-import { getProduct } from '../../data/products.js';
-import { formatCurrency } from '../utils/money.js';
+import { cart } from "../../data/cart.js";
+import { getProduct } from "../../data/products.js";
+import { formatCurrency } from "../utils/money.js";
 
 export function renderPaymentSummary() {
   let productPriceCents = 0;
@@ -57,36 +57,42 @@ export function renderPaymentSummary() {
     </button>
   `;
 
-  document.querySelector('.js-payment-summary').innerHTML = paymentSummaryHTML;
+  document.querySelector(".js-payment-summary").innerHTML = paymentSummaryHTML;
 
   // WhatsApp button event listener
-const whatsappButton = document.getElementById('whatsapp-button');
-whatsappButton.addEventListener('click', () => {
-    const phoneNumber = '+254114477854'; // Replace with your WhatsApp business number
-    const message = generateWhatsAppMessage(productPriceCents, totalBeforeTaxCents, taxCents, totalCents);
-    
-    // Call a function to send the message via the WhatsApp API
-    sendWhatsAppMessage(phoneNumber, message);
-});
-
-function generateWhatsAppMessage(productPriceCents, totalBeforeTaxCents, taxCents, totalCents) {
-    let message = 'Welcome to Farmland Electricals. Your order is being processed.';
-
-    // You can add additional information to the message if needed
-
-    return message;
+  const whatsappButton = document.getElementById("whatsapp-button");
+  whatsappButton.addEventListener("click", () => {
+    const phoneNumber = "+254769716880";
+    const message = generateWhatsAppMessage(
+      productPriceCents,
+      totalBeforeTaxCents,
+      taxCents,
+      totalCents
+    );
+    window.open(
+      `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+    );
+  });
 }
 
-async function sendWhatsAppMessage(phoneNumber, message) {
-    try {
-        const response = await fetch(`https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`);
-        if (response.ok) {
-            console.log('WhatsApp message sent successfully!');
-        } else {
-            console.error('Failed to send WhatsApp message:', response.statusText);
-        }
-    } catch (error) {
-        console.error('Error sending WhatsApp message:', error);
-    }
-}
+function generateWhatsAppMessage(
+  productPriceCents,
+  totalBeforeTaxCents,
+  taxCents,
+  totalCents
+) {
+  let message = "I would like to confirm the order of the following:\n\n";
+
+  cart.forEach((cartItem) => {
+    const product = getProduct(cartItem.productId);
+    message += `Name: ${product.name}\n`;
+    message += `Price: Ksh${formatCurrency(product.priceCents)}\n\n`;
+  });
+
+  message += `Total Items: ${cart.length}\n`;
+  message += `Total before tax: Ksh${formatCurrency(totalBeforeTaxCents)}\n`;
+  message += `Estimated tax (10%): Ksh${formatCurrency(taxCents)}\n`;
+  message += `Order total: Ksh${formatCurrency(totalCents)}\n`;
+
+  return message;
 }
