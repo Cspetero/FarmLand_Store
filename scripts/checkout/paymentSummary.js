@@ -52,7 +52,7 @@ export function renderPaymentSummary() {
     </button>
 
     <button id="whatsapp-button" class="whatsapp-button button-secondary">
-      <img class="whatsapp-logo" src="/FarmLand_store/images/whatsapp_logo.png" alt="">  
+      <img class="whatsapp-logo" src="/images/whatsapp_logo.png" alt="">  
       Confirm your order here (via WhatsApp)
     </button>
   `;
@@ -62,7 +62,7 @@ export function renderPaymentSummary() {
   // WhatsApp button event listener
   const whatsappButton = document.getElementById("whatsapp-button");
   whatsappButton.addEventListener("click", () => {
-    const phoneNumber = "+254769716880";
+    const phoneNumber = "+254713128088";
     const message = generateWhatsAppMessage(
       productPriceCents,
       totalBeforeTaxCents,
@@ -81,7 +81,7 @@ function generateWhatsAppMessage(
   taxCents,
   totalCents
 ) {
-  let message = "I would like to confirm the order of the following:\n\n";
+  let message = "WELCOME To FARMLAND ELECTRICALS:\n \nI would like to confirm the order of the following:\n\n";
 
   cart.forEach((cartItem) => {
     const product = getProduct(cartItem.productId);

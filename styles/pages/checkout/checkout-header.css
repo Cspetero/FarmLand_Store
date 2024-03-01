@@ -1,7 +1,7 @@
 .checkout-header {
   height: 60px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: white;
 
   display: flex;
@@ -23,11 +23,11 @@
 }
 
 .checkout-header-left-section {
-  width: 150px;
+  width: 290px;
 }
 
 .amazon-logo {
-  width: 270px;
+  width: 280px;
   margin-top: 12px;
 
 }
@@ -60,7 +60,7 @@
   flex: 1;
   flex-shrink: 0;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 70px;
 
   font-size: 25px;
   font-weight: 500;
