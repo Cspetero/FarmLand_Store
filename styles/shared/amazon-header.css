@@ -30,15 +30,23 @@
 }
 
 .amazon-logo {
-  width: 100%; /* Adjusted width to fill the container */
-  margin-top: 5px;
+  width: 300px; /* Set a fixed width for the logo */
+  height: auto; /* Allow the height to adjust proportionally */
+
 }
+
+@media (max-width: 480px) {
+  .amazon-logo {
+    width: 100px; /* Adjust the width for smaller screens */
+  }
+}
+
 
 .amazon-mobile-logo {
   display: none;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 150px) {
   .amazon-logo {
     display: none;
   }
