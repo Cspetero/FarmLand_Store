@@ -355,7 +355,7 @@ export const products = [
   {
     id: "4e37dd03-3b23-4bc6-9ff8-44e112a92c64",
     image:
-      "images/newImages/4PCS-Black-Long -31 In 1 Multifunctional Precision Mini Screwdriver Set.jpg",
+      "images/newImages/31 In 1 Multifunctional Precision Mini Screwdriver Set.jpg",
     name: "31 In 1 Multifunctional Precision Mini Screwdriver Set",
     rating: {
       stars: 4.5,
