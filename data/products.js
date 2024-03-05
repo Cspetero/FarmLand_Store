@@ -31,7 +31,7 @@ export const products = [
       stars: 4,
       count: 127,
     },
-    priceCents: 1500,
+    priceCents: 1200,
     keywords: ["sports", "basketballs"],
   },
   {
@@ -67,7 +67,7 @@ export const products = [
       stars: 4,
       count: 37,
     },
-    priceCents: 1500,
+    priceCents: 1200,
     keywords: ["plates", "kitchen", "dining"],
   },
   {
@@ -78,7 +78,7 @@ export const products = [
       stars: 4.5,
       count: 175,
     },
-    priceCents: 550,
+    priceCents: 2850,
     keywords: ["kitchen", "cookware"],
   },
   {
@@ -118,12 +118,12 @@ export const products = [
     id: "58b4fc92-e98c-42aa-8c55-b6b79996769a",
     image:
       "images/newImages/Primus Quality 6kg Gas Cylinder Burner For Meko-min.png",
-    name: "Adapter cable",
+    name: "Primus Quality 6kg Gas Cylinder Burner For Meko",
     rating: {
       stars: 4,
       count: 89,
     },
-    priceCents: 500,
+    priceCents: 600,
     keywords: ["shoes", "running shoes", "footwear"],
   },
   {
@@ -134,7 +134,7 @@ export const products = [
       stars: 4.5,
       count: 235,
     },
-    priceCents: 200,
+    priceCents: 150,
     keywords: ["robe", "swimsuit", "swimming", "bathing", "apparel"],
     type: "clothing",
     sizeChartLink: "images/clothing-size-chart.png",
@@ -147,7 +147,7 @@ export const products = [
       stars: 4.5,
       count: 30,
     },
-    priceCents: 560,
+    priceCents: 1360,
     keywords: ["accessories", "shades"],
   },
   {
@@ -158,18 +158,18 @@ export const products = [
       stars: 4.5,
       count: 562,
     },
-    priceCents: 2499,
+    priceCents: 1299,
     keywords: ["footwear", "sandals", "womens", "beach", "summer"],
   },
   {
     id: "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
-    image: "images/newImages/2.5mm single core electrical cable-min.png",
-    name: "Blackout Curtains Set 4-Pack - Beige",
+    image: "images/newImages/ASL 1.5 Twin Cable + Earth Flat Power Electrical Cable.jpg",
+    name: "ASL 1.5 Twin Cable + Earth Flat Power Electrical Cable",
     rating: {
       stars: 4.5,
       count: 232,
     },
-    priceCents: 4599,
+    priceCents: 11990,
     keywords: ["bedroom", "curtains", "home"],
   },
   {
@@ -180,7 +180,7 @@ export const products = [
       stars: 4,
       count: 160,
     },
-    priceCents: 799,
+    priceCents: 650,
     keywords: ["shorts", "apparel", "mens"],
   },
   {
@@ -191,7 +191,7 @@ export const products = [
       stars: 5,
       count: 846,
     },
-    priceCents: 3074,
+    priceCents: 899-1499,
     keywords: ["water boiler", "appliances", "kitchen"],
   },
   {
@@ -203,7 +203,7 @@ export const products = [
       stars: 4,
       count: 99,
     },
-    priceCents: 2374,
+    priceCents: 2300,
     keywords: ["kleenex", "tissues", "kitchen", "tissues box", "napkins"],
   },
   {
@@ -215,7 +215,7 @@ export const products = [
       stars: 4,
       count: 215,
     },
-    priceCents: 2200,
+    priceCents: 650,
     keywords: ["hats", "straw hats", "summer", "apparel"],
   },
   {
@@ -226,7 +226,7 @@ export const products = [
       stars: 4.5,
       count: 52,
     },
-    priceCents: 1799,
+    priceCents: 2999,
     keywords: ["jewelry", "accessories", "womens"],
   },
   {
@@ -236,7 +236,7 @@ export const products = [
     name: "Cr-V Torx Screwdriver Set With Hole Magnetic T5-T30 Screw.png",
     rating: {
       stars: 4.5,
-      count: 2465,
+      count: 5165,
     },
     priceCents: 1374,
     keywords: ["hooded", "hoodies", "sweaters", "womens", "apparel"],
@@ -251,7 +251,7 @@ export const products = [
       stars: 4.5,
       count: 119,
     },
-    priceCents: 1250,
+    priceCents: 650,
     keywords: ["bathmat", "bathroom", "home"],
   },
   {
@@ -263,7 +263,7 @@ export const products = [
       stars: 4,
       count: 326,
     },
-    priceCents: 2640,
+    priceCents: 299-7999,
     keywords: ["shoes", "flats", "womens", "footwear"],
   },
   {
@@ -275,7 +275,7 @@ export const products = [
       stars: 4.5,
       count: 2556,
     },
-    priceCents: 1599,
+    priceCents: 499,
     keywords: ["tshirts", "shirts", "apparel", "mens"],
     type: "clothing",
     sizeChartLink: "images/clothing-size-chart.png",
@@ -289,7 +289,7 @@ export const products = [
       stars: 4.5,
       count: 2286,
     },
-    priceCents: 8300,
+    priceCents: 1300-4500,
     keywords: ["garbage", "bins", "cans", "kitchen"],
   },
   {
@@ -301,7 +301,7 @@ export const products = [
       stars: 4,
       count: 456,
     },
-    priceCents: 2399,
+    priceCents: 499,
     keywords: ["bedroom", "bed sheets", "sheets", "covers", "home"],
   },
   {
@@ -313,7 +313,7 @@ export const products = [
       stars: 5,
       count: 83,
     },
-    priceCents: 1250,
+    priceCents: 650,
     keywords: ["hats", "winter hats", "beanies", "tuques", "apparel", "womens"],
   },
   {
@@ -325,7 +325,7 @@ export const products = [
       stars: 4.5,
       count: 9017,
     },
-    priceCents: 2290,
+    priceCents: 290,
     keywords: ["pants", "apparel", "mens"],
   },
   {
@@ -337,7 +337,7 @@ export const products = [
       stars: 4,
       count: 229,
     },
-    priceCents: 3890,
+    priceCents: 360,
     keywords: ["shoes", "running shoes", "footwear", "mens"],
   },
   {
@@ -355,24 +355,24 @@ export const products = [
   {
     id: "4e37dd03-3b23-4bc6-9ff8-44e112a92c64",
     image:
-      "images/newImages/4PCS-Black-Long -Allen-Key-Socket-Bit-Set-Screw-Driver-Tool-Kit-NEW-min.png",
-    name: "4PCS-Black-Long -Allen-Key-Socket-Bit-Set-Screw-Driver-Tool-Kit-NEW",
+      "images/newImages/4PCS-Black-Long -31 In 1 Multifunctional Precision Mini Screwdriver Set.jpg",
+    name: "31 In 1 Multifunctional Precision Mini Screwdriver Set",
     rating: {
       stars: 4.5,
       count: 511,
     },
-    priceCents: 1300,
+    priceCents: 499,
     keywords: ["cooking set", "kitchen"],
   },
   {
     id: "a434b69f-1bc1-482d-9ce7-cd7f4a66ce8d",
     image: "images/newImages/8 Levers Shutter Lock-min.png",
-    name: "8 Levers Shutter Lock.png",
+    name: "8 Levers Shutter Lock",
     rating: {
       stars: 4.5,
       count: 130,
     },
-    priceCents: 1649,
+    priceCents: 1300,
     keywords: ["bathroom", "washroom", "mirrors", "home"],
   },
   {
@@ -394,7 +394,7 @@ export const products = [
       stars: 4.5,
       count: 117,
     },
-    priceCents: 2400,
+    priceCents: 600,
     keywords: ["accessories", "womens"],
   },
   {
@@ -417,7 +417,7 @@ export const products = [
       stars: 4.5,
       count: 1211,
     },
-    priceCents: 2250,
+    priceCents: 7850,
     keywords: ["coffeemakers", "kitchen", "appliances"],
   },
   {
@@ -440,7 +440,7 @@ export const products = [
       stars: 4.5,
       count: 93,
     },
-    priceCents: 600,
+    priceCents: 500,
     keywords: ["bathroom", "home", "towels"],
   },
   {
@@ -452,7 +452,7 @@ export const products = [
       stars: 4,
       count: 89,
     },
-    priceCents: 1090,
+    priceCents: 600,
     keywords: ["shoes", "running shoes", "footwear", "womens"],
   },
   {
@@ -463,7 +463,7 @@ export const products = [
       stars: 4,
       count: 3,
     },
-    priceCents: 2747,
+    priceCents: 7800,
     keywords: ["food blenders", "kitchen", "appliances"],
   },
   {
@@ -485,7 +485,7 @@ export const products = [
       stars: 4.5,
       count: 1045,
     },
-    priceCents: 1599,
+    priceCents: 1199,
     keywords: ["kitchen", "kitchen towels", "tissues"],
   },
   {
