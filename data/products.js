@@ -12,6 +12,17 @@ export function getProduct(productId) {
 
 export const products = [
   {
+    id: "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
+    image: "images/newImages/ASL 1.5 Twin Cable + Earth Flat Power Electrical Cable.jpg",
+    name: "ASL 1.5 Twin Cable + Earth Flat Power Electrical Cable",
+    rating: {
+      stars: 4.5,
+      count: 232,
+    },
+    priceCents: 11990,
+    keywords: ["bedroom", "curtains", "home"],
+  },
+  {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
     image:
       "images/newImages/Geemy Electric Hair Trimmer Barbering Machine-min.png",
@@ -22,6 +33,17 @@ export const products = [
     },
     priceCents: 1800,
     keywords: ["socks", "sports", "apparel"],
+  },
+  {
+    id: "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
+    image: "images/newImages/2.5mm single electrical cable-min.png",
+    name: "2.5mm single electrical cable-",
+    rating: {
+      stars: 4.5,
+      count: 1211,
+    },
+    priceCents: 7850,
+    keywords: ["coffeemakers", "kitchen", "appliances"],
   },
   {
     id: "15b6fc6f-327a-4ec4-896f-486349e85a3d",
@@ -160,17 +182,6 @@ export const products = [
     },
     priceCents: 1299,
     keywords: ["footwear", "sandals", "womens", "beach", "summer"],
-  },
-  {
-    id: "901eb2ca-386d-432e-82f0-6fb1ee7bf969",
-    image: "images/newImages/ASL 1.5 Twin Cable + Earth Flat Power Electrical Cable.jpg",
-    name: "ASL 1.5 Twin Cable + Earth Flat Power Electrical Cable",
-    rating: {
-      stars: 4.5,
-      count: 232,
-    },
-    priceCents: 11990,
-    keywords: ["bedroom", "curtains", "home"],
   },
   {
     id: "82bb68d7-ebc9-476a-989c-c78a40ee5cd9",
@@ -408,17 +419,6 @@ export const products = [
     },
     priceCents: 1500,
     keywords: ["boxes", "food containers", "kitchen"],
-  },
-  {
-    id: "0d7f9afa-2efe-4fd9-b0fd-ba5663e0a524",
-    image: "images/newImages/2.5mm single electrical cable-min.png",
-    name: "2.5mm single electrical cable-",
-    rating: {
-      stars: 4.5,
-      count: 1211,
-    },
-    priceCents: 7850,
-    keywords: ["coffeemakers", "kitchen", "appliances"],
   },
   {
     id: "02e3a47e-dd68-467e-9f71-8bf6f723fdae",
